@@ -7,16 +7,19 @@ footer{
     background-color: sandybrown;
 }
 .site-title{
-    font-color:green;
+    color:green;
 }
 #my-image{
     box-shadow: 0 0 2px 1px black;
 }
-h2 ul{
-    list-style: square;
+article>ul{
+    list-style-type: square;
 }
-h2 ul:nth-child(2n+1){
+article>ul li:nth-child(odd){
    background-color: slategrey;
+}
+nav>ul{
+    list-style-type: none;
 }
 nav ul a{
     text-decoration: none;
