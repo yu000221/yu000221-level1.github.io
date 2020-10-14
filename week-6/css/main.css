@@ -35,6 +35,7 @@ body {
   nav ul a {
     color: darkslategrey;
     text-decoration: none;
+    /* values none, underline... */
   }
   
   /* Selecting class name to style HTML element(s) */
@@ -60,6 +61,12 @@ body {
   article>p {
     font-size: 24px;
     font-weight: bold;
+    /* values light, normal, bold, bolder OR 100, 200, 300... */
+    line-height: 1.5;
+    text-transform: uppercase;
+    /* values uppercase, lowercase, capitalize */
+    text-align: left;
+    /* values left, right, center */
   }
   
   /* Adjacent Sibling Selector 
@@ -85,6 +92,7 @@ body {
   nav ul a,
   nav ul a:link,
   nav ul a:visited {
+      /* bacakground values: color, image, repeat, position; */
     background: orange;
     /* horizontal vertical blur spread color */
     box-shadow: -2px 2px 4px 2px black;
