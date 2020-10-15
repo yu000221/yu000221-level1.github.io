@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- Title of the site -->
+  <title>Ann's Dessert Shop - Home</title>
+  <!-- Link to the main.css -->
+  <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header of the site -->
+  <header style="background:pink;">
+    <h1>Ann's Dessert Shop</h1>
+    <hr>
+    <nav>
+          <a href="index.html">Home</a> 
+          <a href="products.html">Products</a>
+          <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <!-- main content of the site -->
+  <main>
+    <article>
+      <h2>About my shop</h2>
+      <!-- adding image -->
+      <img src="../midterm/images/148700100.jpg" alt="the picture of my dessert shop">
+      <blockquote class="large-text">
+        You need a little sweetness in your life <cite>- Anran Yu</cite>
+      </blockquote>
+      <p>
+        Our shop is mainly engaged in:
+          <ul>
+              <li>
+                Desserts
+              </li>
+              <li>
+                  Milk Tea
+              </li>
+              <li>
+                  Breakfast
+              </li>
+          </ul>
+          Our business hours:
+          <ul>
+              <li>
+                  Mon-Thu : 08:00 Am - 06:00 Pm
+              </li>
+              <li>
+                  Fri-Sat : 07:00 Am - 08:00 Pm
+              </li>
+              <li>
+                  Sun : Closed
+              </li>
+          </ul>
+      </p>
+      <hr>
+      <section>
+        <h2>Products</h2>
+        <!-- adding products images, names and prices -->
+      <img src="images/3799.jpg_wh300.jpg" alt="Macaron">
+      <p>Macaron $5.00</p>
+      <img src="images/large_bfc7f5efffb6ac1b.jpg" alt="Pudding">
+      <p>Pudding $8.00</p>
+      <img src="images/13658191.jpeg" alt="Egg tart">
+      <p>Egg tart $3.00</p>
+      <img src="images/01f6-hzrevqa1463629.jpg" alt="Fruit drink">
+      <p>Fruit drink $11.00</p>
+      <img src="images/download.jpeg" alt="milk tea">
+      <p>Milk tea $12.00</p>
+      <img src="images/20171220201652_f79d456907a4cc2fd44e0039f62a6bd8_4.jpeg" alt="Strawberry Souffle">
+      <p>Strawberry Souffle $10.00</p>
+    <!-- Adding section for the ordered list -->
+    <section>
+      <h3>On special:</h3>
+      <ol>
+        <li>Oct 22<sup>nd</sup> - Buy one and get one <strong>free</strong></li>
+        <li>Oct 28<sup>th</sup> - Milk tea <strong>30% Off</strong></li>
+        <li>Nov 1<sup>st</sup> - For every consumption reaches $50.00 will be entitled to a <strong>free gift</strong> </li>
+      </ol>
+    </section>
+    <hr>
+    <h2>Contact us</h2>
+    <!-- adding form -->
+    <form action="contact.html" method="post">
+        <label for="fullname">Your Name:</label>
+        <input id="fullname" type="text" name="fullname" placeholder="Andy Lee" required>
+      </form>
+      <form action="contact.html" method="post">
+        <label for="email">Your Email:</label>
+        <input id="email" type="email" name="email" placeholder="00000000@gmail.com" required>
+      </form>
+      <form action="contact.html" method="post">
+        <label for="address">Your Address:</label>
+        <input id="address" type="text" name="address" placeholder="11 Rockway Ave">
+      </form>
+      <form action="contact.html" method="post">
+        <label for="phone number">Your Phone Number:</label>
+        <input id="phone number" type="tel" name="phone number" placeholder="000-111-1234">
+      </form>
+      <!-- adding textarea -->
+      <form action="contact.html" method="post">
+        <label for="feedback">Your Feedback:</label>
+        <textarea id="feedback"></textarea>
+      </form>
+      <!-- adding checkbox-->
+      <h3>What's your favourite product?</h3>
+      <form action="contact.html" method="post">
+        <label for="Macaron">Macaron</label>
+        <input type="checkbox" id="Macaron" name="Macaron">
+        
+        <label for="Pudding">Pudding</label>
+        <input type="checkbox" id="Pudding" name="Pudding">
+      
+        <label for="Egg tart">Egg tart</label>
+        <input type="checkbox" id="Egg tart" name="Egg tart">
+
+        <label for="Fruit drink">Fruit drink</label>
+        <input type="checkbox" id="Fruit drink" name="Fruit drink">
+
+        <label for="Milk tea">Milk tea</label>
+        <input type="checkbox" id="Milk tea" name="Milk tea">
+
+        <label for="Strawberry Souffle">Strawberry Souffle</label>
+        <input type="checkbox" id="Strawberry Souffle" name="Strawberry Souffle">
+      </form>
+      <!-- adding Radio Button -->
+      <h3>Are you satisfied with our service?</h3>
+      <form action="contact.html" method="post">
+        <label for="No">0%</label>
+        <input type="radio" id="No" name="satisfaction">
+        <label for="little">1% - 25%</label>
+        <input type="radio" id="little" name="satisfaction">
+        <label for="half">26% - 50%</label>
+        <input type="radio" id="half" name="satisfaction">
+        <label for="alot">51% - 75%</label>
+        <input type="radio" id="alot" name="satisfaction">
+        <label for="all">76% - 100%</label>
+        <input type="radio" id="all" name="satisfaction">        
+      </form>
+      <!-- adding a paragraph-->
+      <p>If you have any question, please contact us:</p>
+      <!-- adding Unordered List -->
+      <ul>
+          <li>Our phone number: 000-111-1234</li>
+          <li>Our Email: yu000221@algonquinlive.com</li>
+          <li>Our Instagram: anranyu1112</li>
+      </ul>  
+    </section>
+  </main>
+  <hr> 
+  <!-- footer of the site -->
+  <footer class="site-footer">
+    <!-- HTML Entities -->
+    Copyright &copy; Ann&apos;s Dessert Shop, 2020 &dollar;20
+  </footer>
+</body>
+
+</html>
