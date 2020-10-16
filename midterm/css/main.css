@@ -1,0 +1,104 @@
+/* change h1 position, background image, font */
+h1{
+    font-family: Bradley Hand;
+    text-align:center;
+    vertical-align: middle;
+    font-weight:bold;
+    color:lightblue;
+    font-size: 100px; 
+    line-height: 50vh;
+}    
+.h1{
+    height: 50vh;
+    background-image: url(../images/unnamed.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* change nav font, color, position */
+nav {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: lightblue;
+    background-size: 5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav ul li a:hover{
+     color: white;
+}
+#Home {
+    border:5px solid white;
+}
+#Products {
+    border:5px solid white;
+    text-align: center;
+}
+#Contact {
+    border:5px solid white;
+    text-align: right;
+}
+.navigation ul {
+    list-style-type: none;
+    line-height: Sem;
+}
+.navigation ul li {
+    display: inline;
+}
+.navigation a {
+    text-decoration: none;
+}
+/* change h2 style */
+h2 {
+    font-size: 50px;
+    color:lightblue;
+    font-weight: bold;
+    text-align: left;
+}
+/* change image size, add image border */
+#store {
+    border: 15px solid lightblue;
+    height:55vh;
+    width:45vw;
+    float:left;
+}
+/* change blockquote font and color */
+.large-text {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: pink;
+    font-size: 25px;
+    float:left;
+}
+/* change paragraph style */
+.paragraph1 {
+    float:right;
+    width: 45vw;
+    font-size: 30px;
+    color: white;
+    background-color: lightblue;
+    border: 15px solid pink;
+    height:55vh;
+}
+/* change .heading2 style */
+.Product1,
+.Product2,
+.Product3,
+.Product4,
+.Product5,
+.Product6{
+    width:25vw;
+    height:25vh;
+    object-fit: cover;
+}
+.Product1,
+.Product4{
+    float:left;
+}
+.Product2,
+.Product5{
+    float:center;
+}
+.Product3,
+.Product6{
+    float:right;
+}
