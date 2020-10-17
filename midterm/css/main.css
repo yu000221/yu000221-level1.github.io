@@ -55,7 +55,7 @@ h2 {
     text-align: left;
 }
 /* change quote style */
-quote {
+.quote {
     font-size: 30px;
     color:pink;
     background-color: lightgoldenrodyellow;
