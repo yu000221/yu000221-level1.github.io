@@ -55,6 +55,12 @@ h2 {
     font-weight: bold;
     text-align: left;
 }
+/* change quote style */
+quote {
+    font-size: 30px;
+    color:pink;
+    background-color: lightgoldenrodyellow;
+}
 /* change image size, add image border */
 #store {
     border: 15px solid lightblue;
@@ -79,26 +85,65 @@ h2 {
     border: 15px solid pink;
     height:55vh;
 }
-/* change .heading2 style */
+/* change images size */
 .Product1,
 .Product2,
 .Product3,
 .Product4,
 .Product5,
 .Product6{
-    width:25vw;
-    height:25vh;
-    object-fit: cover;
+    width: 400px;
+    height:300px;
+    border: 5px solid lightblue;
 }
-.Product1,
-.Product4{
-    float:left;
+/* change .price style */
+.price{
+    font-size: 30px;
+    color:pink;
 }
-.Product2,
-.Product5{
-    float:center;
+/* change h3 style */
+h3{
+    font-size: 35px;
+    font-weight: bold;
+    color:lightblue;
 }
-.Product3,
-.Product6{
-    float:right;
+/* change ol style */
+ol li{
+    color:pink;
+    font-size: 25px;
+}
+.special{
+    border:5px solid lightsteelblue;
+}
+/* change label style */
+label{
+    font-size: 25px;
+    color: pink;
+}
+/* change button style */
+button{
+    color:white;
+    background-color: pink;
+    width:120px;
+    height:50px;
+    font-weight: bold;
+}
+/* change info style */
+.info {
+    color:lightblue;
+    font-size: 28px;
+}
+/* change ul style */
+.info+ul li{
+     color:pink;
+     font-size:20px;
+}
+/* change footer style */
+footer{
+    font-size: 20px;
+    background-color: grey;
+    color:white;
+}
+footer a:hover{
+    color:white;
 }
