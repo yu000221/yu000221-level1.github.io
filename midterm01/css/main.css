@@ -55,7 +55,7 @@ html{
     background-color: lightblue;
 }
 /* set .body margin */
-.body {
+body {
     margin:0 auto;
     border:2px solid white;
     width:50%;
