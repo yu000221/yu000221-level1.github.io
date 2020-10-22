@@ -86,7 +86,7 @@ nav{
 a{
     /* add nav border */
     border-right: 0.3rem solid white;
-    padding:1rem 7.155rem;
+    padding:1rem 7rem;
     color:white;
     font-weight: bold;
 }
