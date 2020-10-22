@@ -98,8 +98,8 @@ nav a:last-child{
 a:hover {
     color:lightcoral;
 }
-/* change a:linked color */
-a:linked {
+/* change a:link color */
+a:link {
     color:orange;
 }
 /* set .head1 style */
