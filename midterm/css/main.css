@@ -1,148 +1,290 @@
-/* change h1 position, background image, font */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain) */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*******************************************
+               Custom css 
+*******************************************/
+/* set html font size */
+html{
+    font-size: 16px;
+    background-color: lightblue;
+}
+/* set .body margin */
+body {
+    margin:0 auto;
+    border:2px solid white;
+    width:50%;
+    height: 100%;
+}
+/* set h1 style */
 h1{
-    font-family: Bradley Hand;
-    text-align:center;
-    vertical-align: middle;
-    font-weight:bold;
-    color:lightblue;
-    font-size: 100px; 
-    line-height: 50vh;
-}    
-.h1{
-    height: 50vh;
+    margin:0 auto 1rem auto;
+    padding:6rem;
+    /* add border */
+    border-bottom:0.3rem solid pink;
+    /* add background image */
     background-image: url(../images/unnamed.jpg);
-    background-position: center;
     background-size: cover;
-}
-/* change nav font, color, position */
-nav {
-    font-size: 40px;
+    background-repeat: no-repeat;
+    /* change font style */
+    color:orange;
+    font-size: 3rem;
     font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    background-color: lightblue;
-    background-size: 5rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-nav ul li a:hover{
-     color: white;
-}
-#Home {
-    border:5px solid white;
-}
-#Products {
-    border:5px solid white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
-#Contact {
-    border:5px solid white;
-    text-align: right;
+/* set nav style  */
+nav{
+    /* change nav display */
+    display:inline-block;
 }
-.navigation ul {
-    list-style-type: none;
-}
-.navigation ul li {
-    display: inline;
-}
-.navigation a {
-    text-decoration: none;
-}
-/* change h2 style */
-h2 {
-    font-size: 50px;
-    color:lightblue;
+a{
+    /* add nav border */
+    border-right: 0.3rem solid white;
+    padding:1rem 7rem;
+    color:white;
     font-weight: bold;
-    text-align: left;
 }
-/* change quote style */
-.quote {
-    font-size: 30px;
-    color:pink;
-    background-color: lightgoldenrodyellow;
+/* delete a:last-child border */
+nav a:last-child{
+    border:none;
 }
-/* change image size, add image border */
-#store {
-    border: 15px solid lightblue;
-    height:55vh;
-    width:45vw;
+/* change a:hover color */
+a:hover {
+    color:lightcoral;
+}
+/* change a:link color */
+a:link {
+    color:orange;
+}
+/* set .head1 style */
+.head1 {
+    /* change font style */
+    font-size: 2rem;
+    color:lightcoral;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* change margin value */
+    margin-top:4rem;
+    margin-left: 0.9rem;
+      /* change padding value */
+      padding-bottom: 0.2rem;
+}
+/* change .container position */
+.container {
+    width:53rem;
+}
+/* set image style */
+img{
+    /* change image size */
+    width:27rem;
+    height:20rem;
+    /* add image border */
+    border: 0.2rem solid white;
+    /* change margin and padding value */
+    margin: 1rem 3rem 1rem 0.8rem;
     float:left;
 }
-/* change blockquote font and color */
-.large-text {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: pink;
-    font-size: 25px;
+/* change p style */
+p{
+    /* change font style */
+    font-size: 1.4rem;
+    color:white;
+    font-weight: bold;
+    /* change margin value */
+    margin: 0 0.2rem 1rem 0.2rem;
+    /* change padding value */
+    padding: 1rem;
+     /* change line-height */
+     line-height: 130%;
+}
+/* change .head2 style */
+.head2{
+     /* change font style */
+     font-size: 2rem;
+     color:lightcoral;
+     font-weight: bold;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     /* change margin value */
+     margin-top:2.4rem;
+     margin-left: 0.9rem;
+    /* change padding value */
+    padding-bottom: 0.2rem;
+}
+/* change ul style */
+ul{
+    /* change font style */
+    font-size: 1.4rem;
+    color:white;
+    font-weight: bold;
+    /* change margin value */
+    margin: 1rem 0rem 2.5rem 2.4rem;
+    /* add list-style */
+    list-style: disc outside;
+    /* change line-height */
+    line-height: 130%;
+}
+/* change .head3 style */
+.head3{
+    /* change font style */
+    font-size: 2rem;
+    color:lightcoral;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* change margin value */
+    margin-left: 0.9rem;
+   /* change padding value */
+   padding-bottom: 0.2rem;
+}
+/* change .form style */
+.form{
+    /* change font style */
+    font-size: 1.4rem;
+    color:white;
+    font-weight: bold;
+    /* add border */
+    border: 0.5rem solid pink;
+    /* change margin value */
+    margin-bottom: 0.5rem;
+    /* change padding value */
+    padding-bottom: 0.2rem;
+    padding-left:0.8rem;
+    padding-top:0.8rem;
+}
+.label1{
+      /* add float */
+      float:left;
+}
+.fullname {
+    /* clear left float */
+    clear:left;
+}
+.label2{
+    /* add float */
     float:left;
 }
-/* change paragraph style */
-.paragraph1 {
-    float:right;
-    width: 45vw;
-    font-size: 30px;
-    color: white;
-    background-color: lightblue;
-    border: 15px solid pink;
-    height:55vh;
+.email {
+    /* clear left float */
+    clear:left;
 }
-/* change images size */
-.Product1,
-.Product2,
-.Product3,
-.Product4,
-.Product5,
-.Product6{
-    width: 400px;
-    height:300px;
-    border: 5px solid lightblue;
+.label3{
+    /* add float */
+    float:left;
 }
-/* change .price style */
-.price{
-    font-size: 30px;
-    color:pink;
+.message {
+    /* clear left float */
+    clear:left;
+}
+/* change text box size */
+#fullname,
+#email{
+    width:52rem;
+    height:2rem;
+    /* add margin value */
+    margin: 1rem 0.9rem 1rem 0;
+}
+#message{
+    width:52rem;
+    height:4rem;
+    /* add margin value */
+    margin: 1rem 0.9rem 1rem 0;
 }
 /* change h3 style */
 h3{
-    font-size: 35px;
+    /* change font style */
+    font-size: 1.5rem;
+    color:lightcoral;
     font-weight: bold;
-    color:lightblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* change margin value */
+    margin-bottom: 0.5rem;
+    /* change padding value */
+    padding-bottom: 0.2rem;
+    padding-left:0.3rem;
 }
-/* change ol style */
-ol li{
-    color:pink;
-    font-size: 25px;
+/* change .select style */
+.select{
+    /* change margin value */
+    margin-bottom: 0.5rem;
+    /* change padding value */
+    padding-bottom: 0.2rem;
+    padding-left:0.4rem;
 }
-.special{
-    border:5px solid lightsteelblue;
-}
-/* change label style */
-label{
-    font-size: 25px;
-    color: pink;
-}
-/* change button style */
 button{
-    color:white;
-    background-color: pink;
-    width:120px;
-    height:50px;
-    font-weight: bold;
-}
-/* change info style */
-.info {
-    color:lightblue;
-    font-size: 28px;
-}
-/* change ul style */
-.info+ul li{
-     color:pink;
-     font-size:20px;
+      /* change margin value */
+      margin-bottom: 0.5rem;
+      margin-left:0.5rem;
+      /* change padding value */
+      padding-bottom: 0.2rem;
+      padding-left:0.4rem;
+      /* change button background color */
+      background-color: white;
+      /* change font style */
+      color:lightcoral;
+      font-size:1.6rem;
+      font-weight: bold;
+      /* change text-align */
+      text-align: center;
+      /* change margin value */
+      margin-top:1rem;
 }
 /* change footer style */
-footer{
-    font-size: 20px;
-    background-color: grey;
-    color:white;
-}
-footer a:hover{
-    color:white;
+footer {
+     /* change font style */
+     color:orange;
+     font-size:1.6rem;
+     font-weight: bold;
+     /* change margin value */
+     margin-top:3rem;
+     margin-bottom: 2rem;
+     /* change padding value */
+     padding-top:2rem;
+     padding-left:1.2rem;
+     /* add border-top value */
+     border-top:0.5rem solid orange;
 }
