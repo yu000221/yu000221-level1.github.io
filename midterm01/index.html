@@ -6,21 +6,24 @@
   <title>HOHO Dessert Shop- Home</title>
   <link href="css/main.css" rel="stylesheet">
 </head>
-
+<div class="body">
 <body>
   <!-- Header of the site -->
   <header>
     <h1>HOHO Dessert Shop</h1>
+    <div class="nav">
     <nav>
-          <a href="index.html">HOME</a>
-          <a href="story.html">STORY</a>
-          <a href="contact.html">CONTACT</a>
+          <a href="#head1">HOME</a>
+          <a href="#head2">DETAILS</a>
+          <a href="#head3">CONTACT</a>
     </nav>
+    </div>
   </header>
   <!-- main content of the site -->
   <main>
-      <h2>About HOHO Dessert Shop</h2>
+      <h2 class="head1" id="head1">About HOHO Dessert Shop</h2>
       <!-- adding image -->
+      <div class="container">
       <img src="images/148700100.jpg" alt="photo of HOHO Dessert Shop">
       <p>
         HOHO dessert is my shop in China. Professional production, management of all types of 
@@ -39,8 +42,8 @@
         the heart dessert with 3 kinds of Chinese style is very famous: raw "sesame paste, walnut dew, 
         apricot benevolence tea", welcome everybody to taste.
       </p>
-      <section>
-        <h2>Our Opening Hours</h2>
+      </div>
+        <h2 class="head2" id="head2">Our Opening Hours</h2>
         <ul>
             <li>
                 Monday - Thursday : 11:00 am - 07:00 pm
@@ -55,23 +58,23 @@
                 Sunday : Closed
             </li>
         </ul>
-      </section>
-      <section>
-      <h2>Contct Us</h2>
-      <form action="contact.html" method="post">
-        <label for="fullname">Your Name:</label>
-        <input id="fullname" type="text" name="fullname" required>
+      <h2 class="head3" id="head3">Contct Us</h2>
+      <div class="form">
+      <form action="iindex.html" method="post">
+        <div class="label1"><label for="fullname">Your Name:</label></div>
+        <div class="fullname"><input id="fullname" type="text" name="fullname" required></div>
       </form>
-      <form action="contact.html" method="post">
-        <label for="email">Your Email:</label>
-        <input id="email" type="email" name="email" required>
+      <form action="iindex.html"  method="post">
+        <div class="label2"><label for="email">Your Email:</label></div>
+        <div class="email"><input id="email" type="email" name="email" required></div>
       </form>
-      <form action="contact.html" method="post">
-        <label for="message">Your Message:</label>
-        <input id="message" type="text" name="message" required>
+      <form action="iindex.html"  method="post">
+        <div class="label3"><label for="message">Your Message:</label></div>
+        <div class="message"><input id="message" type="text" name="message" required></div>
       </form>
+      <br>
       <h3>Would you like HOHO Dessert Shop?</h3>
-      <form action="contact.html" method="post">
+      <form class="select" action="iindex.html"  method="post">
         
         <label for="Yes">Yes</label>
         <input type="radio" id="Yes" name="wish">
@@ -80,11 +83,10 @@
         <input type="radio" id="No" name="wish">
   
         <label for="Maybe">Maybe</label>
-        <input type="radio" id="Maybe" name="wish">
-        <br>
-        <button type="submit">SEND</button>  
+        <input type="radio" id="Maybe" name="wish"> 
       </form>
-      </section>
+      <button type="submit">SEND</button> 
+    </div>
   </main>
   <!-- footer of the site -->
   <footer class="site-footer">
@@ -92,5 +94,5 @@
     &copy; HOHO Dessert Shop
   </footer>
 </body>
-
+</div>
 </html>
