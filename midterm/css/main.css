@@ -58,7 +58,7 @@ html{
 body {
     margin:0 auto;
     border:2px solid white;
-    width:50%;
+    width:60%;
     height: 100%;
 }
 /* set h1 style */
@@ -68,7 +68,7 @@ h1{
     /* add border */
     border-bottom:0.3rem solid pink;
     /* add background image */
-    background-image: url(../images/unnamed.jpg);
+    background-image: url(../images/f24f2e766f6bd408c0a3427608008670.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     /* change font style */
@@ -86,7 +86,7 @@ nav{
 a{
     /* add nav border */
     border-right: 0.3rem solid white;
-    padding:1rem 7rem;
+    padding:1rem 8.67rem;
     color:white;
     font-weight: bold;
 }
@@ -117,7 +117,7 @@ a:link {
 }
 /* change .container position */
 .container {
-    width:53rem;
+    width:67rem;
 }
 /* set image style */
 img{
@@ -127,7 +127,7 @@ img{
     /* add image border */
     border: 0.2rem solid white;
     /* change margin and padding value */
-    margin: 1rem 3rem 1rem 0.8rem;
+    margin: 1rem 3rem 1rem 1rem;
     float:left;
 }
 /* change p style */
@@ -139,7 +139,7 @@ p{
     /* change margin value */
     margin: 0 0.2rem 1rem 0.2rem;
     /* change padding value */
-    padding: 1rem;
+    padding: 0.8rem 1rem;
      /* change line-height */
      line-height: 130%;
 }
@@ -223,13 +223,13 @@ ul{
 /* change text box size */
 #fullname,
 #email{
-    width:52rem;
+    width:63.5rem;
     height:2rem;
     /* add margin value */
     margin: 1rem 0.9rem 1rem 0;
 }
 #message{
-    width:52rem;
+    width:63.5rem;
     height:4rem;
     /* add margin value */
     margin: 1rem 0.9rem 1rem 0;
