@@ -273,6 +273,16 @@ button{
       /* change margin value */
       margin-top:1rem;
 }
+/* change .box position */
+.box{
+    position: fixed;
+    bottom: 2%;
+    right:2%;
+    text-decoration: underline;
+    font-size:1.2rem;
+    color:black;
+    border:1px solid black;
+}
 /* change footer style */
 footer {
      /* change font style */
@@ -287,4 +297,5 @@ footer {
      padding-left:1.2rem;
      /* add border-top value */
      border-top:0.5rem solid orange;
+
 }
