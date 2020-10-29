@@ -66,22 +66,25 @@ body {
     width:67rem;
     height: 100%;
 }
-/* set h1 style */
-h1{
-    margin:0 auto 1rem auto;
-    padding:6rem;
-    /* add border */
-    border-bottom:0.3rem solid pink;
-    /* add background image */
-    background-image: url(../images/f24f2e766f6bd408c0a3427608008670.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* change font style */
-    color:orange;
+.head-div{
+    position: relative;
+}
+.head-img{
+    width:67rem;
+    height:26rem;
+    z-index:1;
+}
+.h1-div{
+    /* set h1 position */
+    position: absolute;
+    z-index: 2;
+    left:20rem;
+    top:10rem;
+    /* set h1 style */
     font-size: 3rem;
     font-weight: bold;
+    color:orange;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
 }
 /* set nav style  */
 nav{
@@ -121,7 +124,7 @@ a:hover {
     width:67rem;
 }
 /* set image style */
-img{
+.img{
     /* change image size */
     width:27rem;
     height:20rem;
