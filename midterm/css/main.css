@@ -302,5 +302,11 @@ footer {
      padding-left:1.2rem;
      /* add border-top value */
      border-top:0.5rem solid orange;
-
+     /* change footer position */
+    position: relative;
+}
+footer div{
+    position: absolute;
+    right:0;
+    bottom: 0;
 }
