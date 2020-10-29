@@ -47,17 +47,22 @@ table {
 	border-spacing: 0;
 }
 /*******************************************
-               Custom css 
+               Custom CSS
 *******************************************/
-/* set html font size */
+/* set html style */
 html{
+/* set html font size */
     font-size: 16px;
+/* set html background color */
     background-color: lightblue;
 }
-/* set .body margin */
+/* set .body style */
 body {
+/* set .body margin */
     margin:0 auto;
+/* add border */
     border:2px solid white;
+/* set .body width and height value */
     width:67rem;
     height: 100%;
 }
@@ -83,7 +88,7 @@ nav{
     /* change nav display */
     display:inline-block;
 }
-a{
+nav a{
     /* add nav border */
     border-right: 0.3rem solid white;
     padding:1rem 8.67rem;
@@ -97,10 +102,6 @@ nav a:last-child{
 /* change a:hover color */
 a:hover {
     color:lightcoral;
-}
-/* change a:link color */
-a:link {
-    color:orange;
 }
 /* set .head1 style */
 .head1 {
@@ -273,14 +274,16 @@ button{
       /* change margin value */
       margin-top:1rem;
 }
-/* change .box position */
+/* set .box style */
 .box{
+    /* change .box position */
     position: fixed;
-    bottom: 0;
-    right:0;
+    right:1rem;
+    bottom:1rem;
+    /* change .box font style */
+    font-size: 1.5rem;
+    font-weight: bold;
     text-decoration: underline;
-    font-size:1.3rem;
-    color:black;
 }
 /* change footer style */
 footer {
