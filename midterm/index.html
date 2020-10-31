@@ -6,31 +6,43 @@
   <title>HOHO Dessert Shop- Home</title>
   <link href="css/main.css" rel="stylesheet">
 </head>
+
 <body>
   <!-- Header of the site -->
-  <header>
-    <div class="head-div"> 
-      <img class="head-img" src="images/f24f2e766f6bd408c0a3427608008670.jpg" alt="pink background image">
+  <div class="container1">
+    <header>
+      <div class="head-div"> 
+          <!-- add image for the background -->
+          <img class="head-img" src="images/f24f2e766f6bd408c0a3427608008670.jpg" alt="pink background image">
       <div class="h1-div">
-      <h1 id="h1">HOHO Dessert Shop</h1>
+          <h1 id="h1">HOHO Dessert Shop</h1>
       </div><br><br>
-    </div>
-      <div class="nav">
+  </div>
+  <div class="nav">
+    <!-- add the navigation bar -->
     <nav>
+      <ul>
+        <li>
           <a class="nav1" href="#head1">HOME</a>
+        </li>
+        <li>
           <a class="nav2" href="#head2">DETAILS</a>
+        </li>
+        <li>
           <a class="nav3" href="#head3">CONTACT</a>
+        </li>
+      </ul>
     </nav>
-    </div>
-  </header>
+  </div>
+    </header>
   <!-- main content of the site -->
   <main>
     <article>
       <h2 class="head1" id="head1">About HOHO Dessert Shop</h2>
       <!-- adding image -->
       <div class="container">
-      <img class="img" src="images/148700100.jpg" alt="photo of HOHO Dessert Shop">
-      <p>
+        <img class="img" src="images/148700100.jpg" alt="photo of HOHO Dessert Shop">
+        <p>
         HOHO dessert is my shop in China. Professional production, management of all types of 
         orthodox Hong Kong dessert. Hong Kong Man Kee Dessert Group has developed from an early 
         family sugar water shop into a chain dessert shop since 1995 when the first Man Kee dessert 
@@ -46,9 +58,10 @@
         famous products: mango halberd, durian halberd, poplar mandew, snow black pearl. Additional, 
         the heart dessert with 3 kinds of Chinese style is very famous: raw "sesame paste, walnut dew, 
         apricot benevolence tea", welcome everybody to taste.
-      </p>
+        </p>
       </div>
     </article>
+    <section>
         <h2 class="head2" id="head2">Facts about Our Opening Hours</h2>
         <ul>
             <li>
@@ -64,21 +77,33 @@
                 Sunday : Closed
             </li>
         </ul>
+    </section>
+    <aside>
       <h2 class="head3" id="head3">Contct Us</h2>
       <div class="form">
-      <form action="iindex.html" method="post">
-        <div class="label1"><label for="fullname">Your Name:</label></div>
-        <div class="fullname"><input id="fullname" type="text" name="fullname" required></div>
-      </form>
-      <form action="iindex.html"  method="post">
-        <div class="label2"><label for="email">Your Email:</label></div>
-        <div class="email"><input id="email" type="email" name="email" required></div>
-      </form>
-      <form action="iindex.html"  method="post">
-        <div class="label3"><label for="message">Your Message:</label></div>
-        <div class="message"><input id="message" type="text" name="message" required></div>
-      </form>
+        <form action="iindex.html" method="post">
+          <div class="label1">
+            <label for="fullname">Your Name:</label>
+          </div>
+          <div class="fullname">
+            <input id="fullname" type="text" name="fullname" required>
+          </div>
+          <div class="label2">
+            <label for="email">Your Email:</label>
+          </div>
+          <div class="email">
+            <input id="email" type="email" name="email" required>
+          </div>
+          <div class="label3">
+            <label for="message">Your Message:</label>
+          </div>
+          <div class="message">
+            <input id="message" type="text" name="message" required>
+          </div>
+        </form>
+      </div>
       <br>
+    <div>
       <h3>Would you like HOHO Dessert Shop?</h3>
       <form class="select" action="iindex.html"  method="post">
         
@@ -90,17 +115,23 @@
   
         <label for="Maybe">Maybe</label>
         <input type="radio" id="Maybe" name="wish"> 
+      
+      <div>
         <button type="submit">SEND</button> 
-      </form>
-      <div class="box">
-        <a href="#h1">Back to Top</a>
       </div>
+      </form>
     </div>
+    </aside>
+
   </main>
   <!-- footer of the site -->
   <footer class="site-footer">
     <!-- HTML Entities -->
      <div>&copy; HOHO Dessert Shop</div>
   </footer>
+  <div class="box">
+    <a href="#h1">Back to Top</a>
+  </div>
+</div>
 </body>
 </html>
