@@ -1,7 +1,6 @@
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain) */
+/********************************************
+               RESET CSS
+ *******************************************/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -12,301 +11,363 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+display: block;
 }
 body {
-	line-height: 1;
+line-height: 1;
 }
 ol, ul {
-	list-style: none;
+list-style: none;
 }
 blockquote, q {
-	quotes: none;
+quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+content: '';
+content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+border-collapse: collapse;
+border-spacing: 0;
 }
+a{ text-decoration:none;}
 /*******************************************
-               Custom CSS
+                 Custom CSS
 *******************************************/
 /* set html style */
 html{
 /* set html font size */
-    font-size: 16px;
+font-size: 16px;
 /* set html background color */
-    background-color: lightblue;
+background-color: #aad4d0;
 }
 /* set .body style */
 body {
 /* set .body margin */
-    margin:0 auto;
-/* add border */
-    border:2px solid white;
+margin:0 auto;
+background:lightblue;
 /* set .body width and height value */
-    width:67rem;
-    height: 100%;
+width:67rem;
+height: 100%;
 }
 .head-div{
-    position: relative;
+position: relative; 
 }
 .head-img{
-    width:67rem;
-    height:26rem;
-    z-index:1;
+width:67rem;
+height:26rem;
+z-index:1;
+max-width:100%;
 }
 .h1-div{
-    /* set h1 position */
-    position: absolute;
-    z-index: 2;
-    left:20rem;
-    top:10rem;
-    /* set h1 style */
-    font-size: 3rem;
-    font-weight: bold;
-    color:orange;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-/* set nav style  */
-nav{
-    /* change nav display */
-    display:inline-block;
-}
+/* set h1 position */
+position: absolute;
+z-index: 2;
+left:20rem;
+top:10rem;
+/* set h1 style */
+font-size: 3rem;
+font-weight: bold;
+color:#fff;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+nav ul{ overflow:hidden;}
+nav li{ float:left; width:33.333333333333%; text-align:center;}
 nav a{
-    /* add nav border */
-    border-right: 0.3rem solid white;
-    padding:1rem 8.67rem;
-    color:white;
-    font-weight: bold;
+/* add nav border */
+border-right: 0.1rem solid #000; 
+color:white;
+font-weight: bold;
 }
 /* delete a:last-child border */
-nav a:last-child{
-    border:none;
+nav li:last-child a{
+border:none;
 }
 /* change a:hover color */
 a:hover {
-    color:lightcoral;
+color:lightcoral;
 }
+
+nav li a{ display:block;}
 /* set .head1 style */
 .head1 {
-    /* change font style */
-    font-size: 2rem;
-    color:lightcoral;
-    font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    /* change margin value */
-    margin-top:4rem;
-    margin-left: 0.9rem;
-      /* change padding value */
-      padding-bottom: 0.2rem;
+/* change font style */
+font-size: 2rem;
+color:lightcoral;
+font-weight: bold;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/* change margin value */
+margin-top:4rem;
+margin-left: 0.9rem;
+/* change padding value */
+padding-bottom: 0.2rem;
 }
 /* change .container position */
 .container {
-    width:67rem;
+width:67rem;
 }
 /* set image style */
 .img{
-    /* change image size */
-    width:27rem;
-    height:20rem;
-    /* add image border */
-    border: 0.2rem solid white;
-    /* change margin and padding value */
-    margin: 1rem 3rem 1rem 1rem;
-    float:left;
+/* change image size */
+width:27rem;
+height:20rem; 
+/* change margin and padding value */
+margin: 1rem 3rem 1rem 1rem;
+float:left;
+max-width:100%;
 }
 /* change p style */
 p{
-    /* change font style */
-    font-size: 1.4rem;
-    color:white;
-    font-weight: bold;
-    /* change margin value */
-    margin: 0 0.2rem 1rem 0.2rem;
-    /* change padding value */
-    padding: 0.8rem 1rem;
-     /* change line-height */
-     line-height: 130%;
+/* change font style */
+font-size: 1.2rem;
+color:white;
+font-weight: bold;
+/* change margin value */
+margin: 0 0.2rem 1rem 0.2rem;
+/* change padding value */
+padding: 0.8rem 1rem;
+/* change line-height */
+line-height: 130%;
 }
 /* change .head2 style */
 .head2{
-     /* change font style */
-     font-size: 2rem;
-     color:lightcoral;
-     font-weight: bold;
-     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-     /* change margin value */
-     margin-top:2.4rem;
-     margin-left: 0.9rem;
-    /* change padding value */
-    padding-bottom: 0.2rem;
+/* change font style */
+font-size: 2rem;
+color:lightcoral;
+font-weight: bold;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/* change margin value */
+margin-top:2.4rem;
+margin-left: 0.9rem;
+/* change padding value */
+padding-bottom: 0.2rem;
 }
 /* change ul style */
 ul{
-    /* change font style */
-    font-size: 1.4rem;
-    color:white;
-    font-weight: bold;
-    /* change margin value */
-    margin: 1rem 0rem 2.5rem 2.4rem;
-    /* add list-style */
-    list-style: disc outside;
-    /* change line-height */
-    line-height: 130%;
+/* change font style */
+font-size: 1.4rem;
+color:white;
+font-weight: bold;
+/* change margin value */
+margin: 0rem 0rem 2.5rem 2.4rem; 
+/* change line-height */
+line-height: 130%;
 }
 /* change .head3 style */
+
+main ul{ list-style: disc outside;}
 .head3{
-    /* change font style */
-    font-size: 2rem;
-    color:lightcoral;
-    font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    /* change margin value */
-    margin-left: 0.9rem;
-   /* change padding value */
-   padding-bottom: 0.2rem;
+/* change font style */
+font-size: 2rem;
+color:lightcoral;
+font-weight: bold;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/* change margin value */
+margin-left: 0.9rem;
+/* change padding value */
+padding-bottom: 0.2rem;
 }
 /* change .form style */
 .form{
-    /* change font style */
-    font-size: 1.4rem;
-    color:white;
-    font-weight: bold;
-    /* add border */
-    border: 0.5rem solid pink;
-    /* change margin value */
-    margin-bottom: 0.5rem;
-    /* change padding value */
-    padding-bottom: 0.2rem;
-    padding-left:0.8rem;
-    padding-top:0.8rem;
+/* change font style */
+font-size: 1.4rem;
+color:white;
+font-weight: bold;  
+/* change padding value */ 
+padding-left:0.8rem;
+padding-top:0.8rem;
 }
 .label1{
-      /* add float */
-      float:left;
+/* add float */
+float:left;
 }
 .fullname {
-    /* clear left float */
-    clear:left;
+/* clear left float */
+clear:left;
 }
 .label2{
-    /* add float */
-    float:left;
+/* add float */
+float:left;
 }
 .email {
-    /* clear left float */
-    clear:left;
+/* clear left float */
+clear:left;
 }
 .label3{
-    /* add float */
-    float:left;
+/* add float */
+float:left;
 }
 .message {
-    /* clear left float */
-    clear:left;
+/* clear left float */
+clear:left;
 }
 /* change text box size */
 #fullname,
 #email{
-    width:63.5rem;
-    height:2rem;
-    /* add margin value */
-    margin: 1rem 0.9rem 1rem 0;
+width:63.5rem;
+height:2rem;
+/* add margin value */
+margin: 1rem 0.9rem 1rem 0;
 }
 #message{
-    width:63.5rem;
-    height:4rem;
-    /* add margin value */
-    margin: 1rem 0.9rem 1rem 0;
+width:63.5rem;
+height:4rem;
+/* add margin value */
+margin: 1rem 0.9rem 1rem 0;
 }
 /* change h3 style */
 h3{
-    /* change font style */
-    font-size: 1.5rem;
-    color:lightcoral;
-    font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    /* change margin value */
-    margin-bottom: 0.5rem;
-    /* change padding value */
-    padding-bottom: 0.2rem;
-    padding-left:0.3rem;
+/* change font style */
+font-size: 1.5rem;
+color:lightcoral;
+font-weight: bold;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/* change margin value */
+margin-bottom: 0.5rem;
+/* change padding value */
+padding-bottom: 0.2rem;
+padding-left:0.3rem;
 }
 /* change .select style */
 .select{
-    /* change margin value */
-    margin-bottom: 0.5rem;
-    /* change padding value */
-    padding-bottom: 0.2rem;
-    padding-left:0.4rem;
+/* change margin value */
+margin-bottom: 0.5rem;
+/* change padding value */
+padding-bottom: 0.2rem;
+padding-left:0.4rem;
 }
 button{
-      /* change margin value */
-      margin-bottom: 0.5rem;
-      margin-left:0.5rem;
-      /* change padding value */
-      padding-bottom: 0.2rem;
-      padding-left:0.4rem;
-      /* change button background color */
-      background-color: white;
-      /* change font style */
-      color:lightcoral;
-      font-size:1.6rem;
-      font-weight: bold;
-      /* change text-align */
-      text-align: center;
-      /* change margin value */
-      margin-top:1rem;
+/* change margin value */
+margin-bottom: 0.5rem;
+margin-left:0.5rem;
+/* change padding value */
+padding-bottom: 0.2rem;
+padding-left:0.4rem;
+/* change button background color */
+background-color:transparent;
+/* change font style */
+color:#FFF;
+font-size:0.8rem;
+font-weight: bold;
+/* change text-align */
+text-align: center;
+/* change margin value */
+margin-top:1rem;
+border:1px solid #000;
+padding:10px 12px;
 }
 /* set .box style */
 .box{
-    /* change .box position */
-    position: fixed;
-    right:1rem;
-    bottom:1rem;
-    /* change .box font style */
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-decoration: underline;
+/* change .box position */
+position: fixed;
+right:1rem;
+bottom:1rem;
+/* change .box font style */
+font-size: 1.5rem;
+font-weight: bold;
+text-decoration: underline;
 }
 /* change footer style */
 footer {
-     /* change font style */
-     color:orange;
-     font-size:1.6rem;
-     font-weight: bold;
-     /* change margin value */
-     margin-top:3rem;
-     margin-bottom: 2rem;
-     /* change padding value */
-     padding-top:2rem;
-     padding-left:1.2rem;
-     /* add border-top value */
-     border-top:0.5rem solid orange;
-     /* change footer position */
-    position: relative;
+/* change font style */
+color:#000;
+font-size:1.1rem;
+font-weight: bold;
+/* change margin value */
+margin-top:3rem;
+margin-bottom: 3rem;
+/* change padding value */
+padding-top:2rem;
+padding-left:1.2rem; 
+/* change footer position */
+position: relative;
+margin-right:2rem;
 }
 footer div{
-    position: absolute;
-    right:0;
-    bottom: 0;
+position: absolute;
+right:0;
+bottom: 0;
+}
+main aside{ width:98%; margin:0 auto; border:1px solid #000;}
+
+section li{ font-size:1.2rem;}
+@media (min-width:992px) and (max-width: 1200px) {
+
+}
+@media (max-width: 67rem) 
+{
+    body { 
+    width: 100%;
+    height: 100%;
+}
+.container {
+    width: 100%;
+}
+#fullname, #email {
+    width: 98%;
+    height: 2rem;
+    margin: 1rem 2% 1rem 0;
+}
+#message {
+    width: 98%;
+    height: 4rem;
+    margin: 1rem 2% 1rem 0;
+}
+
+.h1-div
+{
+    width:100%;
+    left:0px;
+    text-align:center;
+    top: 12rem;
+    
+}
+}
+
+@media (max-width: 768px)
+{
+    .h1-div
+    {
+        font-size: 1.5rem;
+        
+    }
+
+}
+@media (max-width: 480px) 
+{
+.img {
+    width: 96%;
+    height: auto;
+    margin: 1rem 2% 1rem 2%;
+    float: none;
+    max-width: 100%;
+}
+ul {
+    font-size: 1.4rem;
+    color: black;
+    font-weight: bold;
+    margin: 0rem 0rem 2.5rem 0rem; 
+}
+.head1 {
+    font-size: 1.5rem; 
+}
+nav a { 
+    font-size: 1.2rem; 
+}
+
 }
