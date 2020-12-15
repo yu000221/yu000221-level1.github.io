@@ -243,6 +243,10 @@ main>section:first-of-type{
     border:0.1rem solid orange;
 }
 /* set "Contact Us" style */
+.clr{
+    display: flex;
+    flex-direction: column-reverse;
+}
 .contact form input{ 
     width:100%; 
     font-size:2.4rem; 
@@ -320,6 +324,7 @@ footer a{
         display:inline-block;
         width:12%;
     }
+
     nav li a{
         text-align: center;
     }
@@ -442,10 +447,24 @@ footer a{
     grid-row: 2 / 3;
     height:35rem;
    }
+ 
    /* set "Contact Us" style */
    .contact{
     width:90%;
+    margin:0 auto;
    }
+   .message1{
+       width:45%;
+       float: left;
+   }
+   .location{
+       width: 92%; 
+       padding-left: 5%;
+   }
+   .oper{
+       width:100%;
+   }
+
   
    /* set footer style */
    footer{
