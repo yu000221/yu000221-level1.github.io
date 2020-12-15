@@ -85,7 +85,7 @@ h3{
 h4{ 
     font-size:2rem; 
     line-height:2; 
-    border-bottom:1px solid #c78b07; 
+    border-bottom:1px solid #c78b06; 
     margin-bottom:10px;
     font-weight: bolder;
 }
@@ -114,10 +114,10 @@ nav li{
     text-align:center;
 }
 nav li:first-child{ 
-    background:#c78b07;
+    background:#c78b06;
 }
 nav li.act a{ 
-    color:#c78b07; 
+    color:#c78b06; 
 }
 nav li:first-child img{ 
     display:block;
@@ -125,7 +125,7 @@ nav li:first-child img{
 nav li a{ 
     text-decoration:none; 
     line-height:3; 
-    color:#c78b07;
+    color:#c78b06;
     font-size:1.6rem;
     font-weight: bolder;
 }
@@ -141,19 +141,19 @@ nav li form input{
 }
 nav li form button{ 
     background:#222222; 
-    border:0.1rem solid #c78b07; 
+    border:0.1rem solid #c78b06; 
     padding:0.3rem; 
     position:absolute; 
     top:0px; 
     right:0px;
 }
 nav li form button i{ 
-    color:#c78b07;
+    color:#c78b06;
     margin-left: 0px !important; 
 }
 nav li a:hover{
-    background:#c78b07;
-    color:black;
+    background:#c78b06;
+    columns: #222222;
 }
 /* set images style */
 main>section img{ 
@@ -178,8 +178,8 @@ main>section img{
     margin-bottom:3rem;
 }
 .banner .box a{ 
-    background:#c78b07; 
-    color:#000;
+    background:#c78b06; 
+    color:#222;
 }
 .box{ 
     background:#ffe6ac; 
@@ -240,7 +240,7 @@ main>section:first-of-type{
     height:25rem;
 }
 .vision .box a{
-    border:0.1rem solid orange;
+    border:0.1rem solid #c78b06;
 }
 /* set "Contact Us" style */
 .clr{
@@ -267,7 +267,7 @@ main>section:first-of-type{
 .contact form button{ 
     border:0; 
     background:#222222; 
-    color:orange; 
+    color:#c78b06; 
     padding:0.5rem 1.5rem; 
     font-size:2.4rem; 
 }
@@ -283,7 +283,7 @@ main>section:first-of-type{
 }
 .oper table td,
 .oper table th{  
-    border:0.1rem solid #000;
+    border:0.1rem solid #222;
 } 
 .oper table td{
     text-align: center;
@@ -302,12 +302,12 @@ footer{
     padding:30px 0px 10px;
 }
 footer p{ 
-    color:#c78b07; 
+    color:#c78b06; 
     line-height:3; 
     padding-left:20px; 
 }
 footer a{ 
-    color:#c78b07;
+    color:#c78b06;
 }
 /******************* Desktop Style ******************/
 @media (min-width:760px){
@@ -361,7 +361,7 @@ footer a{
         margin-bottom:3rem;
     }
     .banner .box a{ 
-        background:#c78b07; 
+        background:#c78b06; 
         color:#000;
     }
     /* set "About Us" style */
