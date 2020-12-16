@@ -153,7 +153,6 @@ nav li form button i{
 }
 nav li a:hover{
     background:#c78b06;
-    columns: #222222;
 }
 /* set images style */
 main>section img{ 
@@ -243,10 +242,6 @@ main>section:first-of-type{
     border:0.1rem solid #c78b06;
 }
 /* set "Contact Us" style */
-.clr{
-    display: flex;
-    flex-direction: column-reverse;
-}
 .contact form input{ 
     width:100%; 
     font-size:2.4rem; 
@@ -449,22 +444,29 @@ footer a{
    }
  
    /* set "Contact Us" style */
+   #contact{
+       display:block;
+   }
    .contact{
     width:90%;
     margin:0 auto;
    }
+   #clr{
+       display:flex;
+       flex-direction:column-reverse;
+   }
    .message1{
-       width:45%;
-       float: left;
+    width:45%;
+     float: left;
    }
    .location{
-       width: 92%; 
-       padding-left: 5%;
+    width:92%; 
+    margin-left: 5rem;
+    
    }
    .oper{
-       width:100%;
-       padding-top:3rem;
-       padding-bottom: 5rem;
+    width:190%;
+    margin-left:-50rem;
    }
 
   
