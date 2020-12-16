@@ -116,6 +116,7 @@ nav li{
 nav li:first-child{ 
     background:#c78b06;
 }
+
 nav li.act a{ 
     color:#c78b06; 
 }
@@ -153,6 +154,7 @@ nav li form button i{
 }
 nav li a:hover{
     background:#c78b06;
+    color:#222;
 }
 /* set images style */
 main>section img{ 
